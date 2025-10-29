@@ -1,0 +1,10 @@
+config load "C:\Users\ariya csc\OneDrive\Desktop\New_folder\FRA271_Lab1_Sensors-main\FRA271_Lab1_Sensors-main\ADC_reader\ADC_reader.ioc"
+project toolchain STM32CubeIDE
+
+SetStructure Advanced
+
+project setCustomFWPath "C:\Users\ariya csc\STM32Cube_Firmware\STM32Cube_FW_G4_V1.6.1"
+
+project generate 
+
+exit wait
